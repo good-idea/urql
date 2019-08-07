@@ -28,7 +28,7 @@
     "react-hooks/exhaustive-deps": [
       "warn",
       {
-        "additionalHooks": ["useImmediateEffect", "useImmediateState"]
+        "additionalHooks": "useImmediateEffect, useImmediateState"
       }
     ],
     "react/prop-types": "off",

@@ -61,7 +61,7 @@ export const useSubscription = <T = any, R = T, V = object>(
         }));
       })
     );
-  }, [client, devtoolsContext, handler, request, setState, args.context]);
+  }, [client, request, devtoolsContext, args.context, setState, handler]);
 
   // Trigger subscription on query change
   // We don't use useImmediateEffect here as we have no way of
